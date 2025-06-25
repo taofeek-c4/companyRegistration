@@ -1,0 +1,6 @@
+@CompanyCardAPI_HostAddress = http://localhost:5106
+
+GET {{CompanyCardAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

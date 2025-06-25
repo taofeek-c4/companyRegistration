@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Company Portal</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h4 class="card-title text-center">Company Registration</h4>
+          <form id="register-form">
+            <div class="mb-3">
+              <label for="register-email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="register-email" required />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Register</button>
+          </form>
+
+          <hr />
+
+          <h5 class="text-center">Verify OTP</h5>
+          <form id="verify-form">
+            <div class="mb-3">
+              <label for="verify-email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="verify-email" required />
+            </div>
+            <div class="mb-3">
+              <label for="verify-otp" class="form-label">OTP</label>
+              <input type="text" class="form-control" id="verify-otp" required />
+            </div>
+            <div class="mb-3">
+              <label for="verify-password" class="form-label">Set Password</label>
+              <input type="password" class="form-control" id="verify-password" required />
+            </div>
+            <button type="submit" class="btn btn-success w-100">Verify & Set Password</button>
+          </form>
+
+          <hr />
+
+          <h5 class="text-center">Login</h5>
+          <form id="login-form">
+            <div class="mb-3">
+              <label for="login-email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="login-email" required />
+            </div>
+            <div class="mb-3">
+              <label for="login-password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="login-password" required />
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
