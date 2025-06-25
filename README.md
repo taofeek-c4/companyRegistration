@@ -13,7 +13,7 @@ A secure ASP.NET Core Web API for:
 - Secure password hashing with SHA-256
 - Card number and PIN generator
 - Simple HTML/JS dashboard for testing
-- PostgreSQL database (via EF Core)
+- SqlServer(SSMS) database (via EF Core)
 - Follows best practices and RESTful conventions
 
 ## Tech Stack
