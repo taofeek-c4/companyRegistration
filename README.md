@@ -20,8 +20,8 @@ A secure ASP.NET Core Web API for:
 
 - ASP.NET Core 8 Web API
 - Entity Framework Core
-- PostgreSQL (via Supabase or local)
-- Bootstrap + Vanilla JS (Frontend)
+- sqlServer (local)
+- Bootstrap (Frontend)
 - MailKit for OTP email delivery
 
 ## How to Run
